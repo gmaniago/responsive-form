@@ -3,16 +3,18 @@ body {
   font-family: Arial, sans-serif;
   background: #1CA2DD;
   padding: 0 2em 2em 2em;
+  margin-top: 2em;
 }
 
 .text {
   background: #1CA2DD;
-  border: .15em solid white;
+  border: .2em solid white;
   width: 100%;
   color: #00669C;
+  font-weight: lighter;
   font-size: 1em;
   font-style: italic;
-  height: 1.5em;
+  height: 2em;
 }
 
 ::-webkit-input-placeholder {
@@ -33,9 +35,9 @@ body {
 
 textarea {
   display: block;
-  height: 18em;
+  height: 16em;
   width: 100%;
-  border: .35em solid white;
+  border: .3em solid white;
   background: #1CA2DD;
   margin-bottom: 2em;
 }
@@ -88,7 +90,7 @@ button {
 
   @media screen and (min-width: 1122px) {
     .part1 {
-    margin-right: 2em;
+    margin-right: 2.3em;
     float: left;
     width: 31%;
   }
